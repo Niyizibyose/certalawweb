@@ -1,0 +1,14 @@
+{
+  "/about": "pages/about.html",
+  "/academy": "pages/academy.html",
+  "/contact": "pages/contact.html",
+  "/finance": "pages/finance.html",
+  "/": "pages/index.html",
+  "/insights/[id]": "pages/insights/[id].html",
+  "/insights": "pages/insights.html",
+  "/people": "pages/people.html",
+  "/practice-areas": "pages/practice-areas.html",
+  "/_error": "pages/_error.js",
+  "/pro-bono": "pages/pro-bono.html",
+  "/404": "pages/404.html"
+}
