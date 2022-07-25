@@ -120,7 +120,7 @@ const CarouselPartners = ({
                 <Image
                   src={resource.images[0]}
                   alt=""
-                  width="300"
+                  width="400"
                   height="200"
                   loading="lazy"
                   className="cursor-pointer"
@@ -130,7 +130,7 @@ const CarouselPartners = ({
                 <Image
                   src={resource.images[1]}
                   alt=""
-                  width="300"
+                  width="400"
                   height="200"
                   loading="lazy"
                   className="cursor-pointer"

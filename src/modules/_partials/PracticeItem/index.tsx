@@ -26,7 +26,7 @@ const PracticeItem = ({
         <div className="hidden text-white group-hover:block">
           <Image src={icon} alt="" width={100} height={100} />
         </div>
-        <p className="px-4 h6 text-white font-black text-lg md:text-xl text-center">
+        <p className="px-2 h2 text-white font-black text-lg md:text-xl text-center">
           {title}
         </p>
       </div>

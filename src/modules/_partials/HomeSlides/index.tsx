@@ -22,12 +22,12 @@ const resources = [
     link: '/about-2',
     about: 'Law firm in Rwanda',
   },
-  {
+ // {
    // title: 'Pro Bono',
    // imageUrl: '/assets/images/slide2.jpg',
    // link: '/about-2',
    // about: 'Justice for All',
-  },
+//},
 ];
 
 const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
