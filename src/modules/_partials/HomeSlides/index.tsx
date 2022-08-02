@@ -25,7 +25,7 @@ const resources = [
  {
    title: 'The Certa Foundation',
    imageUrl: '/assets/images/foundation.jpg',
-   ink: '/about-2',
+   link: '/foundation',
    about: '',
 },
 ];
