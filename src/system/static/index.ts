@@ -16,10 +16,6 @@ export default class Static {
       path: '/people',
       label: 'PEOPLE & CULTURE',
     },
-    {
-      path: '/foundation',
-      label: 'The Foundation',
-    },
   ];
 
   static team = [

@@ -82,6 +82,10 @@ h6 {
   border-radius: 12px;
 }
 
+.cldg {
+  background: white;
+}
+
 .scrollbar::-webkit-scrollbar-thumb {
   background: #1434A4;
   border-radius: 100vh;

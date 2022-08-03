@@ -27,16 +27,16 @@ const ProBrono: NextPage = () => {
             loading="lazy"
             // objectPosition="top"
             className="top-0 absolute z-0"
-          />
+          /> 
           <div className="justify-end bg-gradient-to-t from-black to-white/25 top-0 h-full absolute flex flex-col items-center text-white w-full">
-            <div className="text-3xl text-white md:text-6xl font-bold tracking-wide w-full md:max-w-6xl flex flex-col border-b border-white pb-4">
-              <h1 className="">The Certa</h1>
-              <h1 className="">Foundation.</h1>
+            <div className="text-3xl  text-white md:text-6xl font-bold tracking-wide w-full md:max-w-6xl flex flex-col border-b border-white pb-4">
+           <h1 className="">The Certa</h1>
+              <h1 className="">Foundation.</h1> 
             </div>
           </div>
-        </div>
+        </div> 
         <div className="bg-black p-4 md:p-8 text-white w-full flex flex-col items-center">
-          <div className="flex flex-col w-full max-w-6xl relative">
+          <div className="flex flex-col w-full max-w-6xl relative">   <br/> <br/> <br/>
             <FoundationArticle />
           </div>
         </div>
@@ -53,7 +53,7 @@ const ProBrono: NextPage = () => {
           />
           <div className="justify-end bg-gradient-to-t from-black to-white/25 top-0 h-full absolute flex flex-col items-center text-white w-full">
             <div className="text-3xl text-white md:text-6xl font-bold tracking-wide w-full md:max-w-6xl flex flex-col border-b border-white pb-4">
-              <h1 className="">Pro-bono</h1>
+              <h1 className="">Pro-Bono.</h1>
             </div>
           </div>
         </div>
@@ -65,7 +65,7 @@ const ProBrono: NextPage = () => {
 
         <div className="relative bg-black cursor-default flex flex-col items-center justify-center min-h-[70vh] w-full">
           <Image
-            src="/assets/images/foundation.jpg"
+            src="/assets/images/cldg.jpg"
             alt=""
             layout="fill"
             objectFit="cover"
@@ -76,7 +76,7 @@ const ProBrono: NextPage = () => {
           <div className="justify-end bg-gradient-to-t from-black to-white/25 top-0 h-full absolute flex flex-col items-center text-white w-full">
             <div className="text-3xl text-white md:text-6xl font-bold tracking-wide w-full md:max-w-6xl flex flex-col border-b border-white pb-4">
               <h1 className="">The Centre for Law &</h1>
-              <h1 className="">Digital Governance</h1>
+              <h1 className="">Digital Governance.</h1>
             </div>
           </div>
         </div>

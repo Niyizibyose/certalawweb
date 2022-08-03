@@ -7,26 +7,29 @@ interface IItem {
   link: string;
   title: string;
   about: string;
+  secondLine: string;
 }
 
 const resources = [
   {
     title: 'INSIGHTS',
     imageUrl: '/assets/images/Volcanos.jpg',
-    link: '/about-2',
-    about: 'Our Case commentaries.',
+    link: '/insights/1',
+    about: 'Rwanda Delayed Potential in',
+    secondLine: 'Construction Disputes.',
   },
   {
     title: 'About certa',
     imageUrl: '/assets/images/lady.jpg',
     link: '/about-2',
-    about: 'Law firm in Rwanda',
+    about: 'We are the fastest growing', 
+    secondLine: 'Law firm in Rwanda.',
   },
  {
-   title: 'The Certa Foundation',
    imageUrl: '/assets/images/foundation.jpg',
    link: '/foundation',
-   about: '',
+   about: 'The Certa',
+   secondLine: 'Foundation'
 },
 ];
 
@@ -144,11 +147,11 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
                       {resource.title}
                     </h5>
                     <div className="mt-3 flex flex-col items-start text-2xl md:text-6xl text-white landingTexts">
-                      <h2 className="landingTexts lowercase first-letter:uppercase">
-                        {resource.title}:
-                      </h2>
-                      <h2 className="mt-1 italic landingTexts md:text-5xl">
+                      <h2 className="mt-1 landingTexts md:text-5xl">
                         {resource.about}
+                      </h2>
+                      <h2 className="mt-1 landingTexts md:text-5xl">
+                        {resource.secondLine}
                       </h2>
                       <button
                         type="button"
