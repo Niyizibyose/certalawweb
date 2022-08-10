@@ -8,7 +8,7 @@ const InsightItem = () => {
     <div className="group relative flex flex-col min-h-[70px]">
       <div className="w-full h-48">
         <Image
-          src="/assets/images/slide1.png"
+          src="/assets/images/building.jpg"
           alt=""
           layout="fill"
           objectFit="cover"
