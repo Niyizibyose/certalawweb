@@ -8,6 +8,7 @@ interface IItem {
   title: string;
   about: string;
   secondLine: string;
+  lexLogo: string;
 }
 
 const resources = [
@@ -17,6 +18,7 @@ const resources = [
     link: '/insights/1',
     about: 'Rwanda Delayed Potential in',
     secondLine: 'Construction Disputes.',
+   
   },
   {
     title: 'About certa',
@@ -24,6 +26,7 @@ const resources = [
     link: '/about-2',
     about: 'We are the fastest growing', 
     secondLine: 'Law firm in Rwanda.',
+    lexLogo: '/assets/images/lex1.png'
   },
  {
    imageUrl: '/assets/images/foundation.jpg',
@@ -89,17 +92,9 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
       // onMouseLeave={() => setHovered(false)}
       className="flex flex-grow w-full h-full bg-primary p-4 pt-0 md:px-8"
     >
+      
       <div className="flex h-full flex-grow relative overflow-hidden w-full">
-        <div className="z-10 bottom-10 right-12 absolute">
-          <Image
-            src="/assets/images/lex1.png"
-            alt=""
-            height="80px"
-            width="150"
-            loading="lazy"
-            objectFit='contain'
-          />
-        </div>
+      
         <div className="right-2 z-10 justify-center absolute flex flex-col items-center space-y-2 h-full">
           {data.map((resource, index) => (
             <div
@@ -142,6 +137,8 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
                     objectFit="cover"
                     objectPosition="center"
                   />
+                  
+                  
                   <div className="z-10 flex flex-col items-start my-auto">
                     <h5 className="uppercase text-xl md:text-2xl landingTexts text-brand-yellow">
                       {resource.title}
