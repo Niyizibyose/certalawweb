@@ -5,7 +5,7 @@ import Static from 'system/static';
 import LeftDrawer from '../LeftDrawer';
 import Logo from '../Logo';
 
-const Header = () => {
+const Header = ({ children }: { children?: any }) => {
   return (
     <header className="top-0 sticky z-20 flex flex-col items-center bg-primary px-8 md:px-16 w-full">
       <nav className="flex space-x-6 justify-between items-center w-full">
@@ -22,6 +22,7 @@ const Header = () => {
           </div>
         </div>
       </nav>
+      {children}
     </header>
   );
 };

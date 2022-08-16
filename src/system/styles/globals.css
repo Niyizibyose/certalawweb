@@ -1,55 +1,54 @@
 @font-face {
-  font-family: "Girloy";
+  font-family: 'Girloy';
   src: url('/assets/fonts/girloy/Gilroy-ExtraBold.otf');
   font-weight: bolder;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Girloy";
+  font-family: 'Girloy';
   src: url('/assets/fonts/girloy/Gilroy-Light.otf');
   font-weight: lighter;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "PlayfairDisplay";
+  font-family: 'PlayfairDisplay';
   src: url('/assets/fonts/play-fair/PlayfairDisplay-Regular.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
-
 @font-face {
-  font-family: "PlayfairDisplay";
+  font-family: 'PlayfairDisplay';
   src: url('/assets/fonts/play-fair/PlayfairDisplay-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "PlayfairDisplay";
+  font-family: 'PlayfairDisplay';
   src: url('/assets/fonts/play-fair/PlayfairDisplay-Italic.ttf');
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "HelveticaNeue";
+  font-family: 'HelveticaNeue';
   src: url('/assets/fonts/helvetica/HelveticaNeueLt.ttf');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeue";
+  font-family: 'HelveticaNeue';
   src: url('/assets/fonts/helvetica/HelveticaNeue-Bold.ttf');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "HelveticaNeue";
+  font-family: 'HelveticaNeue';
   src: url('/assets/fonts/helvetica/HelveticaNeueIt.ttf');
   font-weight: normal;
   font-style: italic;
@@ -84,11 +83,10 @@ h6 {
 
 .cldg {
   background: white;
-  
 }
 
 .scrollbar::-webkit-scrollbar-thumb {
-  background: #1434A4;
+  background: #1434a4;
   border-radius: 100vh;
   border: 3px solid white;
 }
@@ -392,6 +390,38 @@ h6 {
   }
 }
 
+.line-grow {
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  border-bottom: 4px solid #be8903;
+  width: 0%;
+  text-align: center;
+  animation: line 2s linear forwards;
+}
+
+@keyframes line {
+  from {
+    left: 50%;
+    width: 0%;
+  }
+
+  to {
+    left: 5%;
+    width: 90%;
+  }
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+  .line-grow {
+    display: block;
+    border-bottom: 2px solid #be8903;
+    width: 0%;
+    animation: line 0.5s linear forwards;
+  }
+}
