@@ -13,13 +13,13 @@ const InsightArticle: NextPage = () => {
       </Head>
       <div className="flex flex-col h-screen overflow-y-auto">
         <Header />
-        <div className="bg-white p-4 md:px-8 py-8 md:py-12 flex flex-col items-center flex-grow w-full">
+        <div className="bg-white p-4 md:px-8 py-8 md:py-12 flex flex-col items-center w-full">
           <div className="w-full md:max-w-6xl flex flex-col">
           <div className=" mt-3 mb-1 flex-wrap flex items-center text-xs tracking-wide space-x-4">
               <p>Published 14 June 2022.</p>
               <p >Author: Denise Isimbi</p>
             </div> <br/>
-            <h1 className="text-3xl landingTexts font-semibold">
+            <h1 className="text-3xl justify-left landingTexts font-semibold">
             Adjudication: Rwanda's Delayed Potential In Construction Disputes
             </h1>
             

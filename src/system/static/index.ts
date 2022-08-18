@@ -13,6 +13,10 @@ export default class Static {
       label: 'PRACTICE AREAS',
     },
     {
+      path: '/insights',
+      label: 'INSIGHTS',
+    },
+    {
       path: '/people',
       label: 'PEOPLE & CULTURE',
     },

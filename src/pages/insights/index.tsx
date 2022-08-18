@@ -26,7 +26,7 @@ const Insights: NextPage = () => {
               className="top-0 absolute z-0"
             />
             <div className="top-0 absolute w-full h-full flex flex-col justify-center md:max-w-6xl">
-              <p className="uppercase text-xl md:text-2xl font-semibold text-white">
+              <p className="text-xl md:text-3xl font-semibold text-white">
                 Insights.
               </p>
               <div className="mt-3 flex flex-col items-start text-lg md:text-xl text-white italic">
