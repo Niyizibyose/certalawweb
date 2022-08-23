@@ -5,6 +5,7 @@ import LandingHeader from 'modules/_partials/LandingHeader';
 import LandingFooter from 'modules/_partials/LandingFooter';
 import HomeSlides from 'modules/_partials/HomeSlides';
 import { LinearProgress } from '@mui/material';
+import ConsultPopup from 'modules/_partials/ConsultPopup';
 
 const Home: NextPage = () => {
   const [progress, setProgress] = React.useState(0);
@@ -30,7 +31,7 @@ const Home: NextPage = () => {
         <title>CERTA LAW</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div className="h-screen items-start flex flex-col w-full">
+      <div className="relative h-screen items-start flex flex-col w-full">
         <div className="flex flex-col w-full relative">
           <LandingHeader />
           <div
@@ -45,6 +46,8 @@ const Home: NextPage = () => {
           </div>
         </div>
         <HomeSlides />
+
+        <ConsultPopup />
       </div>
       <LandingFooter />
     </>
