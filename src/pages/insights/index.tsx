@@ -18,7 +18,7 @@ const Insights: NextPage = () => {
         <div className="flex flex-col flex-grow w-full">
           <div className="relative bg-primary p-4 md:p-8 cursor-default flex flex-col items-center justify-center  min-h-[40vh] w-full bg-center bg-no-repeat bg-cover">
             <Image
-              src="/assets/images/slide2.png"
+              src="/assets/images/book.jpg"
               alt=""
               layout="fill"
               objectFit="cover"
@@ -26,7 +26,7 @@ const Insights: NextPage = () => {
               className="top-0 absolute z-0"
             />
             <div className="top-0 absolute w-full h-full flex flex-col justify-center md:max-w-6xl">
-              <p className="text-xl md:text-3xl font-semibold text-white">
+              <p className="text-xl md:text-3xl text-white">
                 Insights.
               </p>
               <div className="mt-3 flex flex-col items-start text-lg md:text-xl text-white italic">
