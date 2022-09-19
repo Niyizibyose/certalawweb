@@ -104,7 +104,7 @@ const ConsultPopup = () => {
         onClick={() => setToggle(true)}
         className="bottom-4 right-6 md:right-10 md:bottom-8 absolute uppercase font-semibold text-white"
       >
-        REQUEST FREE CONSULT
+        REQUEST FREE CONSULTATION
       </button>
       <Drawer
         anchor="top"
