@@ -25,7 +25,7 @@ const RevenueTaxation: NextPage = () => {
           />
           <div className="flex flex-col justify-center h-full top-0 absolute z-10 w-full md:max-w-6xl">
             <h1 className="text-2xl text-white md:text-4xl font-bold">
-              Revenue Taxation
+              Revenue and Taxation
             </h1>
           </div>
         </div>

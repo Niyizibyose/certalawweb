@@ -44,13 +44,10 @@ const PracticeAreas: NextPage = () => {
           <div className="bg-white p-4 md:p-8 cursor-default flex flex-col items-center justify-center w-full">
             <div className="w-full md:max-w-6xl">
               <p>
-                At Certa Law, our main focus is to cater for the
-                critical business needs of our clients, along a range
-                of major legal practises. Our collaborative approach
-                shows that our clients have ready access to corporate,
-                banking, transactional and intellectual attorneys
-                whose knowledge and experience span industries and
-                worldwide.
+              At Certa Law, our main focus is to cater for the critical business needs of our clients, 
+              along a range of major legal practices. Our collaborative approach shows that our clients 
+              have ready access to corporate, banking, transactional and intellectual attorneys whose 
+              knowledge and experience span industries and worldwide.
               </p>
               <div className="mt-4 h-[2px] w-full opacity-25 bg-primary rounded" />
               <div className="my-4 gap-3 grid sm:grid-cols-2 md:grid-cols-4">

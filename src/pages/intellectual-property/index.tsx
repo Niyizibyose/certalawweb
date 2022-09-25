@@ -44,20 +44,14 @@ const IntellectualProperty: NextPage = () => {
               </div>
               <div className="flex flex-col md:col-span-2">
                 <section>
-                  CERTA offers Intellectual Property services
-                  regarding issues such as acquisition of patents and
-                  trademarks, evaluation of third-party rights,
-                  infringement concerns, and obtaining licenses,
-                  assessing mergers and acquisitions, and deciding
-                  whether to proceed with litigation. If litigation is
-                  inevitable, we act aggressively to achieve your
-                  specific objectives.
+                CERTA offers Intellectual Property services regarding issues such as acquisition of patents and trademarks,
+                 evaluation of third-party rights, infringement concerns, and obtaining licenses, assessing mergers and acquisitions, 
+                 and deciding whether to proceed with litigation. If litigation is inevitable, we act discreetly to achieve your specific 
+                 objectives.
                   <br />
                   <br />
-                  We are engaged in the practice of international and
-                  domestic IP law including advertising, computer,
-                  copyright, internet, patent, trade secret,
-                  trademark, and unfair competition law.
+                  We are engaged in the practice of international and domestic IP law including advertising, 
+                  computer, copyright, internet, patent, trade secret, trademark, and unfair competition law.
                 </section>
 
                 <p className="mt-4 text-primary">

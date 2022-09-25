@@ -4,6 +4,7 @@ import { NextPage } from 'next';
 import Image from 'next/image';
 import Header from 'modules/_partials/Header';
 import Footer from 'modules/_partials/Footer';
+import BackHome from 'modules/_partials/BackHome';
 
 const EnvironmentalEnergy: NextPage = () => {
   return (
@@ -29,6 +30,7 @@ const EnvironmentalEnergy: NextPage = () => {
             </h1>
           </div>
         </div>
+        
         <div className="bg-white p-4 md:px-8 py-8 md:py-12 flex flex-col items-center flex-grow w-full">
           <div className="w-full md:max-w-6xl flex flex-col">
             <article className="inline-grid md:grid-cols-3 gap-x-10 gap-y-5 mt-3 pb-4 md:pb-8 border-b border-primary">
@@ -44,22 +46,26 @@ const EnvironmentalEnergy: NextPage = () => {
               </div>
               <div className="flex flex-col md:col-span-2">
                 <section>
-                  Disputes are becoming more frequent and intricate as
-                  companies continue to enter new markets against a
-                  backdrop of tighter regulatory scrutiny, higher
-                  accountability standards and intense competition.
-                  This creates higher costs and greater liability,
-                  requiring that disputes be avoided whenever
-                  possible, and resolved efficiently when they arise.
+                The Firm is known for its reputable experience in effectively handling a wide range 
+                of disputes on behalf of its clients, both local and international. These range from 
+                constitutional matters, criminal matters, employment and labor, contracts, intellectual 
+                property, taxation disputes among others. 
                   <br />
                   <br />
-                  At CERTA, when our clients are involved in disputes,
-                  we guide them through negotiationsand help them
-                  choose the best dispute resolutionoption. We provide
-                  expert advice at everystep of the process,including
-                  litigation and ADR. All our Partners act as
-                  courtappointed mediators and all our lawyers are
-                  trained inarbitration and mediation.
+                  We have a full-fledged practice in litigation with a high calibre team which is equipped 
+                  with decades of experience. We provide advisory services to our clients to ensure that 
+                  disputes are avoided whenever possible, and resolved efficiently when they arise.
+                  <br/>
+                  <br/>
+                  The Firm is also renowned for its charismatic engagement in strategic litigation and constitutional challenges. 
+                  CERTA Law has both filed a number of constitutional challenges which have resulted in amendments of laws, as well 
+                  as strategic litigation cases which have resulted in key jurisprudence. <br/> <br/>
+                  Our highly experienced team represents both international and international arbitrations and our Partners sit on the 
+                  domestic panel of arbitrators at the Kigali International Arbitration Centre. We also handle cases and advise clients in 
+                  negotiations and mediation proceedings as well adjudication, an emerging area of settlement of construction disputes in Rwanda. <br/> <br/>
+                  All our Partners act as court appointed mediators and Florida Kabasinga, our Managing Partner has been appointed as the 
+                  Chairperson of the East African Law Society’s Alternative Dispute Resolution Committee. <br/>
+
                 </section>
 
                 <p className="mt-4 text-primary">

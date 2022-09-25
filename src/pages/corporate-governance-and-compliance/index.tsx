@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Header from 'modules/_partials/Header';
 import Footer from 'modules/_partials/Footer';
 
-const LegalConsultancy: NextPage = () => {
+const CorporateCommercialTransactions: NextPage = () => {
   return (
     <>
       <Head>
@@ -23,9 +23,9 @@ const LegalConsultancy: NextPage = () => {
             loading="lazy"
             className="top-0 absolute z-0"
           />
-          <div className="flex flex-col justify-center h-full top-0 absolute z-10 w-full md:max-w-6xl">
+          <div className="flex flex-col h-full top-0 absolute z-10 w-full md:max-w-6xl">
             <h1 className="text-2xl text-white md:text-4xl font-bold">
-              Human Rights Law
+            Corporate Governance and Compliance
             </h1>
           </div>
         </div>
@@ -34,7 +34,7 @@ const LegalConsultancy: NextPage = () => {
             <article className="inline-grid md:grid-cols-3 gap-x-10 gap-y-5 mt-3 pb-4 md:pb-8 border-b border-primary">
               <div className="relative flex flex-col text-brand-yellow min-h-48 w-full">
                 <Image
-                  src="/assets/images/HumanRights.jpg"
+                  src="/assets/images/commercial.jpg"
                   alt=""
                   layout="fill"
                   objectFit="cover"
@@ -44,13 +44,18 @@ const LegalConsultancy: NextPage = () => {
               </div>
               <div className="flex flex-col md:col-span-2">
                 <section>
-                At CERTA we are against any kind of injustice. Much of what wedo here is pro bono. 
-                We represent individuals who have been victims of sexual gender-based violence, 
-                defilement,reproductive rights such as surrogacy and abortion, rights of the arrested 
-                persons, right to defence and representation, victimsand witnesses protection among others.
-                It is ourpassion and responsibility to make sure that the guaranteed constitutional rights 
-                are respected, fulfilled and protected in Rwanda.
-
+                Corporate governance and compliance requires balancing complicated competing interests under the 
+                intense spotlight of regulatory, operational, fiduciary, political, communications and market factors. 
+                It requires the application of judgment, legal analysis, and practical decision-making in a real-time 
+                environment where decisions are likely to be second-guessed and sometimes reviewed by the courts. <br/> <br/>
+                At CERTA, we understand that the best way to avoid a corporate governance crisis is to plan for it; 
+                ensuring compliance and that often the most successfully resolved crises are the ones that no one 
+                hears about. But when an issue is in the spotlight, we bring to bear an unparalleled array of resources 
+                and expertise, including regulation, disclosure, corporate law, communications policy, compliance practices, 
+                privacy, fiduciary duties, investor relations and experience based business judgment. <br/><br/>
+                We are experienced in guiding boards of directors, special committees, and management on the full 
+                range of governance issues that confront them. In fact, our multidisciplinary, business-focused 
+                approach to addressing these issues has been relied upon by many local and regional companies. <br/><br/>
                 </section>
 
                 <p className="mt-4 text-primary">
@@ -67,4 +72,4 @@ const LegalConsultancy: NextPage = () => {
   );
 };
 
-export default LegalConsultancy;
+export default CorporateCommercialTransactions;

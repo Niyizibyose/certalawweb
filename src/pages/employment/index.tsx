@@ -25,7 +25,7 @@ const EmploymentLabour: NextPage = () => {
           />
           <div className="flex flex-col justify-center h-full top-0 absolute z-10 w-full md:max-w-6xl">
             <h1 className="text-2xl text-white md:text-4xl font-bold">
-              Employment Labour
+              Employment & Labour
             </h1>
           </div>
         </div>
@@ -44,38 +44,23 @@ const EmploymentLabour: NextPage = () => {
               </div>
               <div className="flex flex-col md:col-span-2">
                 <section>
-                  Our employment and labour lawyers are known for
-                  theircreative, business-orientedcounselling skills
-                  and, whennecessary, they are results-driven and
-                  highly successfullitigators. CERTA represents local
-                  and multinational businesseswith respect to the full
-                  rangeof workforce-related issues,including
-                  employment contracts, handbooks, and policies. The
-                  employment lawyers at CERTA will work closely with
-                  yourmanagement and humanresources professionals to
-                  develop andmaintain clear, suitable employee
-                  handbooks and policiescarefully tailored to meet
-                  your business objectives. When itcomes to
-                  employmentcontracts, we can help you draft
-                  strong,enforceable restrictive covenants and
-                  otherprovisions thatclearly inform employees of
-                  their duties to their employer andprotect youagainst
-                  the loss of confidential information,customers, and
-                  other employees.
+                Our employment and labour lawyers are known for their creative, business-oriented skills and, 
+                when necessary, they are results-driven and highly successful litigators. CERTA represents local 
+                and multinational businesses with respect to the full range of workforce-related issues, including 
+                employment contracts, handbooks, and policies. The employment lawyers at CERTA will work closely 
+                with your management and human resources professionals to develop and maintain clear, suitable 
+                employee handbooks and policies carefully tailored to meet your business objectives. When it comes 
+                to employment contracts, we can help you draft strong, enforceable restrictive covenants and other 
+                provisions that clearly inform employees of their duties to their employer and protect you against 
+                the loss of confidential information, customers, and other employees.
                 </section>
 
                 <section>
                   <br />
                   <br />
-                  CERTA’s employment lawyers are known for
-                  providingpractical, business- orientedsolutions. One
-                  of the solutionsinvolves employment law-related
-                  training. Clients repeatedlyask us to provide this
-                  service. Since requests for employment lawtraining
-                  can varydramatically from client to client, we
-                  haveextensive experience in tailoring employment
-                  lawtrainingprograms to meet your specific
-                  objectives.
+                  One of the solutions CERTA offers is employment law-related training. Clients repeatedly ask us 
+                  to provide this service. Since requests for employment law training can vary dramatically from client 
+                  to client, we have extensive experience in tailoring employment law training programs to meet your specific objectives.
                 </section>
 
                 <p className="mt-4 text-primary">

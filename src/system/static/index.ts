@@ -29,15 +29,25 @@ export default class Static {
       lastName: 'Kabasinga',
       title: `Managing Partner /
 Head of ADR and Strategic Litigation.`,
-      desc: `Ms. Florida is the founder and Managing Partner of CERTA Law. She specialises in ADR and Strategic Litigation. Florida has gained reputation over, among other public interest litigation cases, challenges to constitutional provisions seeking authentic interpretation of laws before Rwanda’s Supreme Court.
-She is also a certified mediator by the International Institute of Mediation and Conflict Resolution and a prolific arbitrator with Kigali International Arbitration Centre where she represented international and domestic clients, including the International Union for Conservation of Nature (IUCN). Ms. Florida holds a Master of Laws (Magna cum Laude) in International Human Rights Law from the University of Notre Dame (Indiana, USA) and a Bachelor of Laws Degree (LLB Hons) from Makerere University (Kampala, Uganda). 
-She has also received various trainings from prestigious institutions notably, University of Pretoria, South Africa, Erasmus University, The Hague, Netherlands, and Chartered Institute of Arbitrators, London. She has taught, at different times, International Criminal Law, Moot Courts and Common Law Litigation Principles and
-Techniques, among others, at different Universities in Rwanda and abroad, including at the Institute for Legal Practice & Development in Rwanda (ILPD).
-In addition to teaching, she is also a trainer where she regularly conducts training workshops for female advocates under the auspices of the Rwanda Bar Association aimed at inspiring and raising their capacity and profiles in the practice of law
-in Rwanda and in the East African Community.
-With an experience spinning to almost 2 decades, Ms. Florida has previously worked for the government of Rwanda as a Senior Legal Advisor to the Prosecutor General and the International Crimes Unit, National Public Prosecution Authority, Rwanda. Internationally, Ms. Florida is also well exposed where she worked as Variously Appeals Counsel, Assistant Appeals Counsel and Case Manager at the
-Office of the Prosecutor, United Nations International Criminal Tribunal for Rwanda (ICTR).
-Ms. Florida is a member of the Rwanda Bar Association, East African Law Society, American Bar Association, International Association of Prosecutors, the Chartered Institute of Arbitrators Kigali Arbitration Center. She speaks at various conferences on cyber security and International Humanitarian Law all over the world, most recently in Washington DC, Michigan, Nairobi, and San Diego. She speaks three languages Kinyarwanda, English and Kiswahili.`,
+      desc: `Ms. Florida is the founder and Managing Partner of CERTA Law. She specialises in ADR and Strategic Litigation. She was appointed 
+      as the Chairperson of the East Africa Law Society Dispute Resolution Committee. Florida has gained reputation over, among other public 
+      interest litigation cases, challenges to constitutional provisions seeking authentic interpretation of laws before Rwanda’s Supreme Court. 
+      She is also a certified mediator by the International Institute of Mediation and Conflict Resolution and a prolific arbitrator with Kigali 
+      International Arbitration Centre where she represented international and domestic clients, including the International Union for 
+      Conservation of Nature (IUCN). Ms. Florida holds a Master of Laws (Magna cum Laude) in International Human Rights Law from the University 
+      of Notre Dame (Indiana, USA) and a Bachelor of Laws Degree (LLB Hons) from Makerere University (Kampala, Uganda). She has also received 
+      various training from prestigious institutions notably, University of Pretoria, South Africa, Erasmus University, The Hague, Netherlands, 
+      and Chartered Institute of Arbitrators, London. She has taught, at different times, International Criminal Law, Moot Courts and Common Law 
+      Litigation Principles and Techniques, among others, at different Universities in Rwanda and abroad, including at the Institute for Legal 
+      Practice & Development in Rwanda (ILPD). In addition to teaching, she is also a trainer where she regularly conducts training workshops for 
+      female advocates under the auspices of the Rwanda Bar Association aimed at inspiring and raising their capacity and profiles in the practice 
+      of law in Rwanda and in the East African Community. With an experience spanning almost 2 decades, Ms. Florida has previously worked for the 
+       of Rwanda as a Senior Legal Advisor to the Prosecutor General and the International Crimes Unit, National Public Prosecution Authority, 
+       Rwanda. Internationally, Ms. Florida is also well exposed where she worked as Variously Appeals Counsel, Assistant Appeals Counsel and Case 
+       Manager at the Office of the Prosecutor, United Nations International Criminal Tribunal for Rwanda (ICTR). Ms. Florida is a member of the 
+       Rwanda Bar Association, East African Law Society, American Bar Association, International Association of Prosecutors, the Chartered Institute 
+       of Arbitrators Kigali Arbitration Center. She speaks at various conferences on cyber security and International Humanitarian Law all over the 
+       world, most recently in Washington DC, Michigan, Nairobi, and San Diego. She speaks three languages Kinyarwanda, English and Kiswahili.`,
     },
     {
       image: '/assets/images/staff/Maurice.jpg',
@@ -67,29 +77,7 @@ He also contributed to various research projects for the Rwandan Ministry of
       (ULK).He is currently conducting his PhD research in insolvency/bankruptcy law at Vrije University Amsterdam (VU) in Netherlands, he holds a Master’s degree(LLM) in international business law and globalization from Utrecht University(Netherlands), a Diploma in Legal Practice from the Institute of Legal Practice and Development (ILPD) and a Bachelor’sdegree (LLB) in law from the Kigali Independent University (ULK).
       Sadiki is fluent in French, English,Swahili and Kinyarwanda`,
     },
-    {
-      image: '/assets/images/staff/Felix.jpg',
-      firstName: 'Felix',
-      lastName: 'Manzi',
-      title:
-        'Executive Director of the Center for Law and Digital Governance at CERTA Foundation',
-      desc: ` FelixManzi is the Executive Director of the Center for Law and 
-      Digital Governance at CERTA Foundation. He holds a Master of Laws (LLM) in 
-      International Law with specialization in International Trade and Investment 
-      Law from The Fletcher School of Law and Diplomacy at Tufts University in Massachusetts.  
-      He was a Wells Mountain Foundation Scholar at the University of Kigali, 
-      where he obtained his LLB, and he most recently completed his Post-Diploma in 
-      Legal Practice studies at the Institute of Legal Practice and Development.Manzi is also 
-      an Adjunct Law Lecturer at the University of Kigali and an Associate Coordinator at the 
-      Hansen Leadership Institute at the University of San Diego. He has also served as a Consultant 
-      at the Harvard Kennedy School, Ash Center’s Global Justice Practices Project. 
-      Prior to that Manzi had served as the Legal and Compliance Officer at Aldango Gold Refinery Ltd, 
-      and as a Rapporteur for the African Union Commission on International Law in Malabo, Equatorial Guinea, 
-      among other roles. He has been trained in leadership, cultural diplomacy, social entrepreneurship, 
-      and social justice areas by different institutions in various countries including Germany, 
-      Tanzania, Kenya, Zambia, Uganda etc.  He speaks English, Swahili, Kinyarwanda, and other 
-      dialects used in the East African Community`,
-    },
+    
 
     {
       image: '/assets/images/staff/Bosco.jpg',
@@ -111,13 +99,14 @@ Kigali. He has undertaken internships with the Commercial Court in Kigali and th
     },
 
     {
-      image: '/assets/images/staff/Michael.jpg',
-      firstName: 'Michael',
-      lastName: 'Butera',
+      image: '/assets/images/staff/Patricia.jpg',
+      firstName: 'Patricia',
+      lastName: 'Mutesi',
       title: 'Junior Associate',
-      desc: `Michael Butera is a Junior Associate at CERTA Law. He specialises in Constitutional Law, Climate Justice, Human Rights and Legal Policy Analysis. He is a graduate of Strathmore Law School and the recipient of both Strathmore University Merit Scholarship and Critical Legal Training Scholarship from European Center for Constitutional and Human Rights. At Strathmore, Michael served as the Publishing Editor of the Strathmore Law Review, Senior Law clinician at the Strathmore Law Clinic and interned at various research centres including Centre for Intellectual Property and Information Technology Law, Kenya. He also served as a Legal Researcher at the Strathmore Extractive Industries Center in Partnership with the African Legal Support Facility hosted by the African Development Bank for its African Petroleum Legislation Atlas pilot Project.
-Michael has also contributed to various research projects including serving as a legal researcher in the preparation of the report on the Status of ADR in Kenya by the Chartered Institute of Arbitrators, Kenyan Branch. He has assisted as an editorial assistant for the Kenyan Constitutional Commentary book by PLO Lumumba and Prof Franceschi, Luis. He has also published articles and presented conference papers in different platforms such as the Strathmore Research Symposium 2020.
-Before joining CERTA, Michael worked with the European Center for Constitutional and Human Rights in Berlin, Germany where he mostly worked on Business and Human Rights (BHR) and Climate Justice. He enjoys reading African Literature and he is a firm devotee of African decolonizing projects and because of this, he now serves as a Regional Representative for East Africa, Rwanda at Afronomicslaw Academic Form—An International Law decolonising and ‘TWAILING’ academic forum. Outside his practicing area, he is interested in African Legal History, Third World Approach to International Law and Economics, and International Climate Change Law. He speaks Kinyarwanda, Kiswahili.`,
+      desc: `Patricia is a Junior Associate at CERTA Law specializing in corporate and commercial matters at the Firm. Patricia holds a bachelor’s degree in Law (LLB) from the University of Rwanda and is currently pursuing a post graduate diploma in legal practice at the Institution of Legal Practice and Development (ILPD). In addition, she is an Associate of the Chartered Institute of Arbitrators(CIArb).
+      Patricia has a passion for corporate law and a particular interest in the areas of commercial transactions. On many occasions, she represented her university at different moot Court Competitions and emerged as the best female pleader at the 7th Edition of the National Moot Court Competition in Property and Land law (IPEACE) of 2019. She also participated in the 4th Edition of the ICRC National Moot Court Competition in 2019 in which she emerged as the first runner up.
+      She is a native speaker of Kinyarwanda and a fluent speaker of English
+      `,
     },
 
     {
@@ -165,7 +154,7 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       path: '/governments',
     },
     {
-      title: 'BANKING & FINANCE LAW',
+      title: 'BANKING & FINANCE',
       icon: '/assets/images/icons/Banking _ Finance.png',
       path: '/finance',
     },
@@ -176,7 +165,7 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       path: '/employment',
     },
     {
-      title: 'REVENUE & TAXATION',
+      title: 'REVENUE and TAXATION',
       icon: '/assets/images/icons/Revenues _ Tax.png',
       background: '/assets/images/Tax.jpg',
       path: '/revenueTaxation',
@@ -206,22 +195,16 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       path: '/dispute-resolution',
     },
     {
-      title: 'CORPORATE & COMMERCIAL TRANSACTIONS',
+      title: 'CORPORATE GOVERNANCE & COMPLIANCE',
       icon: '/assets/images/icons/Corporate Transactios.png',
       background: '/assets/images/commercial.jpg',
-      path: '/corporate-commercial-transactions',
+      path: '/corporate-governance-and-compliance',
     },
     {
       title: 'LEGAL CONSULTANCY AND POLICY ANALYSIS',
       icon: '/assets/images/icons/policies.png',
       background: '/assets/images/Legal.jpg',
       path: '/legal-consultancy',
-    },
-    {
-      title: 'HUMAN RIGHTS LAW',
-      icon: '/assets/images/icons/HumanRights.png',
-      background: '/assets/images/HumanRights.jpg',
-      path: '/human-rights',
     },
     {
       title: 'WILLS, TRUST & PROBATE LAW',

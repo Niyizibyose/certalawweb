@@ -44,15 +44,13 @@ const WillsTrust: NextPage = () => {
               </div>
               <div className="flex flex-col md:col-span-2">
                 <section>
-                CERTA is part of the leading law firms in Rwanda providing Full Range Estate Planning Services.
-                We advise our clients and help them draft all sorts of trusts and wills including living trusts,
-               a last will and testament, durable powers of attorney, and a living will.
-
-                Planning for future is very critical, it raises issues of executors, heirs and beneficiaries 
-                we accordingly assist in probate matters such as a breach of fiduciary duty or a claim 
-                against executor.Given the novelty of regulation of wills and trusts in Rwanda, our 
-                attorneys have quickly specialised in Wills and Trusts registration, interpretation, 
-                professional execution and the entire administration of estate planning.
+                CERTA is part of the leading law firms in Rwanda providing a Full Range of Estate Planning Services. 
+                We advise our clients and help them draft all sorts of trusts and wills including living trusts, a last 
+                will and testament, durable powers of attorney, and a living will. Planning for the future is very critical, 
+                it raises issues of executors, heirs and beneficiaries. We accordingly assist in probate matters such as a 
+                breach of fiduciary duty or a claim against executors. Given the novelty of regulation of wills and trusts 
+                in Rwanda, our attorneys have quickly specialized in Wills and Trusts registration, interpretation, professional 
+                execution and the entire administration of estate planning.
 
                 </section>
 

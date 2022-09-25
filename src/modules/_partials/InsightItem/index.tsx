@@ -15,6 +15,7 @@ const InsightItem = () => {
           loading="lazy"
           className="top-0 absolute z-0"
         />
+         <h2 className="text-black"> Hii </h2>
       </div>
       <div className="bg-white flex items-start flex-col py-3 px-2">
         <h1 className="text-lg font-bold">Insight:</h1>
