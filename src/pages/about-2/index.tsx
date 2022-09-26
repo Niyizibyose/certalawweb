@@ -15,7 +15,7 @@ const ContactPage: NextPage = () => {
       </Head>
       <div className="flex flex-col h-screen overflow-y-auto">
         <Header />
-        <div className="relative bg-primary  md:p-8 cursor-default flex flex-col items-center justify-center  min-h-[60vh] w-full bg-center bg-no-repeat bg-cover">
+        <div className="relative bg-primary  md:p-8 cursor-default flex flex-col items-center justify-center  min-h-[75vh] w-full bg-center bg-no-repeat bg-cover">
           <Image
             src="/assets/images/staff/lawfirm.jpg"
             alt=""
