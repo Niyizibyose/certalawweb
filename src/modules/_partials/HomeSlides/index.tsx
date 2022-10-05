@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 import { useState, useRef, useEffect, useCallback } from 'react';
@@ -18,22 +19,21 @@ const resources = [
     link: '/insights/1',
     about: 'Rwanda Delayed Potential in',
     secondLine: 'Construction Disputes.',
-   
   },
   {
     title: 'About certa',
     imageUrl: '/assets/images/lady.jpg',
     link: '/about-2',
-    about: 'We are the fastest growing', 
+    about: 'We are the fastest growing',
     secondLine: 'Law firm in Rwanda.',
-    lexLogo: '/assets/images/lex1.png'
+    lexLogo: '/assets/images/lex1.png',
   },
- {
-   imageUrl: '/assets/images/foundation.jpg',
-   link: 'https://certafoundation.rw/',
-   about: 'The Certa',
-   secondLine: 'Foundation'
-},
+  {
+    imageUrl: '/assets/images/foundation.jpg',
+    link: 'https://certafoundation.rw/',
+    about: 'The Certa',
+    secondLine: 'Foundation',
+  },
 ];
 
 const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
@@ -92,9 +92,15 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
       // onMouseLeave={() => setHovered(false)}
       className="flex flex-grow w-full h-full bg-primary p-4 pt-0 md:px-8"
     >
-      
       <div className="flex h-full flex-grow relative overflow-hidden w-full">
-      
+        {currentIndex === 1 && (
+          <img
+            src="/assets/images/lex.png"
+            alt=""
+            className="h-20 w-24 right-6 bottom-10 absolute z-50"
+          />
+        )}
+
         <div className="right-2 z-10 justify-center absolute flex flex-col items-center space-y-2 h-full">
           {data.map((resource, index) => (
             <div
@@ -137,8 +143,7 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
                     objectFit="cover"
                     objectPosition="center"
                   />
-                  
-                  
+
                   <div className="z-10 flex flex-col items-start my-auto">
                     <h5 className="uppercase text-xl md:text-2xl landingTexts text-brand-yellow">
                       {resource.title}
