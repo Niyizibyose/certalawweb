@@ -7,6 +7,7 @@ import Header from 'modules/_partials/Header';
 import Footer from 'modules/_partials/Footer';
 import PracticeItem from 'modules/_partials/PracticeItem';
 import Static from 'system/static';
+import PopupDrawer from 'modules/_partials/PopupDrawer';
 
 const PracticeAreas: NextPage = () => {
   const { push } = useRouter();
@@ -44,24 +45,36 @@ const PracticeAreas: NextPage = () => {
           <div className="bg-white p-4 md:p-8 cursor-default flex flex-col items-center justify-center w-full">
             <div className="w-full md:max-w-6xl">
               <p>
-              At Certa Law, our main focus is to cater for the critical business needs of our clients, 
-              along a range of major legal practices. Our collaborative approach shows that our clients 
-              have ready access to corporate, banking, transactional and intellectual attorneys whose 
-              knowledge and experience span industries and worldwide.
+                At Certa Law, our main focus is to cater for the
+                critical business needs of our clients, along a range
+                of major legal practices. Our collaborative approach
+                shows that our clients have ready access to corporate,
+                banking, transactional and intellectual attorneys
+                whose knowledge and experience span industries and
+                worldwide.
               </p>
               <div className="mt-4 h-[2px] w-full opacity-25 bg-primary rounded" />
               <div className="my-4 gap-3 grid sm:grid-cols-2 md:grid-cols-4">
                 {Static.practiceItems.map(element => (
-                  <PracticeItem
-                    icon={element.icon}
-                    title={element.title}
-                    key={element.title}
-                    background={
+                  <PopupDrawer
+                    key={element.otherTitle || element.title}
+                    desc={element.html}
+                    image={
+                      element.image ||
                       element.background ||
                       '/assets/images/screen.png'
                     }
-                    onClick={() => push(element.path)}
-                  />
+                    title={element.title}
+                  >
+                    <PracticeItem
+                      icon={element.icon}
+                      title={element.title}
+                      background={
+                        element.background ||
+                        '/assets/images/screen.png'
+                      }
+                    />
+                  </PopupDrawer>
                 ))}
               </div>
               <div className="h-[1px] w-full opacity-25 bg-primary rounded" />

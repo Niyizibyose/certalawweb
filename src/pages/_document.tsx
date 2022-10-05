@@ -21,7 +21,7 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head />
-        <body className="text-justify">
+        <body className="md:text-justify">
           <Main />
           <NextScript />
           <script

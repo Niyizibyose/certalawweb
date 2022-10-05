@@ -4,17 +4,10 @@ import Image from 'next/image';
 const PracticeItem = ({
   icon,
   title,
-  onClick,
   background = '/assets/images/screen.png',
 }) => {
   return (
-    <div
-      role="button"
-      tabIndex={0}
-      onKeyDown={onClick}
-      onClick={onClick}
-      className="relative group flex flex-col"
-    >
+    <div className="relative group flex flex-col">
       <Image
         src={background}
         alt=""

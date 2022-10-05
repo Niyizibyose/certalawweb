@@ -77,7 +77,6 @@ He also contributed to various research projects for the Rwandan Ministry of
       (ULK).He is currently conducting his PhD research in insolvency/bankruptcy law at Vrije University Amsterdam (VU) in Netherlands, he holds a Master’s degree(LLM) in international business law and globalization from Utrecht University(Netherlands), a Diploma in Legal Practice from the Institute of Legal Practice and Development (ILPD) and a Bachelor’sdegree (LLB) in law from the Kigali Independent University (ULK).
       Sadiki is fluent in French, English,Swahili and Kinyarwanda`,
     },
-    
 
     {
       image: '/assets/images/staff/Bosco.jpg',
@@ -152,65 +151,401 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       icon: '/assets/images/icons/Gov Contracts.png',
       background: '/assets/images/Contracts.jpg',
       path: '/governments',
+      image: '/assets/images/Labour.jpg',
+      otherTitle: 'Employment & Labour',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                Our employment and labour lawyers are known for their creative, business-oriented skills and, 
+                when necessary, they are results-driven and highly successful litigators. CERTA represents local 
+                and multinational businesses with respect to the full range of workforce-related issues, including 
+                employment contracts, handbooks, and policies. The employment lawyers at CERTA will work closely 
+                with your management and human resources professionals to develop and maintain clear, suitable 
+                employee handbooks and policies carefully tailored to meet your business objectives. When it comes 
+                to employment contracts, we can help you draft strong, enforceable restrictive covenants and other 
+                provisions that clearly inform employees of their duties to their employer and protect you against 
+                the loss of confidential information, customers, and other employees.
+                </section>
+
+                <section>
+                  <br />
+                  <br />
+                  One of the solutions CERTA offers is employment law-related training. Clients repeatedly ask us 
+                  to provide this service. Since requests for employment law training can vary dramatically from client 
+                  to client, we have extensive experience in tailoring employment law training programs to meet your specific objectives.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'BANKING & FINANCE',
       icon: '/assets/images/icons/Banking _ Finance.png',
       path: '/finance',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                  Today&apos;s financial institutions and their
+                  clients face uncountable challenges, including
+                  restrictions on foreign banks, lending to companies
+                  in certain jurisdictions, distressed debtand
+                  increasing complexity of financial services
+                  regulation across the globe.
+                </section>
+                <section>
+                  <br />
+                  Therefore, it is crucial that their lawyers can
+                  navigate them through this complexenvironment. CL is
+                  exceptionally wellpositioned to do this. At CL,
+                  banking and finance lawPractice isamong the focal
+                  areas of the law firm. Our banking and
+                  financelawyers representbanks and other financial
+                  institutions, wealso represent corporate borrowers
+                  in structuringandexecuting the most complex
+                  financings across industries.
+                </section>
+                <section>
+                  <br />
+                  Clients trust CL’s banking and finance lawyers
+                  because of ourpractical, business-orientedapproach
+                  to achieving theirobjectives.CERTA’s lawyers have
+                  advanced understanding oftheexpectations and
+                  requirements of both sides to a financingtransaction
+                  and providecounsel tailored to each client’s needs.
+                  <br /> <br />
+                  The following represents just a small part of our
+                  focus: <br />
+                  • Syndicated loans <br />
+                  • Cross-border financing <br />• Capital markets
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'EMPLOYMENT & LABOUR',
       icon: '/assets/images/icons/Employment.png',
       background: '/assets/images/Labour.jpg',
       path: '/employment',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                Our employment and labour lawyers are known for their creative, business-oriented skills and, 
+                when necessary, they are results-driven and highly successful litigators. CERTA represents local 
+                and multinational businesses with respect to the full range of workforce-related issues, including 
+                employment contracts, handbooks, and policies. The employment lawyers at CERTA will work closely 
+                with your management and human resources professionals to develop and maintain clear, suitable 
+                employee handbooks and policies carefully tailored to meet your business objectives. When it comes 
+                to employment contracts, we can help you draft strong, enforceable restrictive covenants and other 
+                provisions that clearly inform employees of their duties to their employer and protect you against 
+                the loss of confidential information, customers, and other employees.
+                </section>
+
+                <section>
+                  <br />
+                  <br />
+                  One of the solutions CERTA offers is employment law-related training. Clients repeatedly ask us 
+                  to provide this service. Since requests for employment law training can vary dramatically from client 
+                  to client, we have extensive experience in tailoring employment law training programs to meet your specific objectives.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'REVENUE and TAXATION',
       icon: '/assets/images/icons/Revenues _ Tax.png',
       background: '/assets/images/Tax.jpg',
       path: '/revenueTaxation',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                  Smart, effective tax planning is a crucial factor of
+                  every successful business transaction. When tackling
+                  critical tax issues, you need lawyers with the
+                  experience to navigate the sea of complex,
+                  constantly changing tax laws. Please consider CERTA.
+                  CERTA’s tax practice has a superb reputation for tax
+                  counseling on local and transnational tax issues and
+                  transactions. CERTA’s tax practice provides its
+                  clients with cutting-edge tax advice in domestic and
+                  cross-border transactions. <br />
+                  <br />
+                  Our tax team also effectively representsclients in
+                  tax disputes at every stage of the tax controversy
+                  process, from pre-audit planningto administrative
+                  appeals and post-appeals processes in
+                  competentcourts. CERTA’s taxattorneys bring a wealth
+                  of experience indealing with RRA and other taxing
+                  authorities inorder to resolvedisputes effectively
+                  and efficiently. Unlike accounting firms,
+                  ourtaxlitigators can represent clients in all phases
+                  of tax disputesand have successfully defendedclients
+                  in some of the largest taxdisputes on record. <br />
+                  <br />
+                  Our unsurpassed understanding of the process enables
+                  us tohelp clients design andimplement tax strategies
+                  for theiroperations and transactions in Rwanda and
+                  the region.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'INTELLECTUAL PROPERTY',
       icon: '/assets/images/icons/IP icon.png',
       background: '/assets/images/Intellectualproperty.jpg',
       path: '/intellectual-property',
+      image: '/assets/images/Tax.jpg',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                CERTA offers Intellectual Property services regarding issues such as acquisition of patents and trademarks,
+                 evaluation of third-party rights, infringement concerns, and obtaining licenses, assessing mergers and acquisitions, 
+                 and deciding whether to proceed with litigation. If litigation is inevitable, we act discreetly to achieve your specific 
+                 objectives.
+                  <br />
+                  <br />
+                  We are engaged in the practice of international and domestic IP law including advertising, 
+                  computer, copyright, internet, patent, trade secret, trademark, and unfair competition law.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'CORPORATE LAW',
       icon: '/assets/images/icons/Corporate Gov.png',
       background: '/assets/images/corporatelaw.jpg',
       path: '/corporate-law',
+      image: '/assets/images/corporatelaw.jpg',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                  Corporate governance requires balancing complicated
+                  competing interests under the intense spotlight of
+                  regulatory, operational, fiduciary, political,
+                  communications and market factors. It requires the
+                  application of judgment, legal analysis, and
+                  practical decision-making in a real-time environment
+                  where decisions are likely to be second-guessed and
+                  sometimes reviewed by the courts.
+                  <br />
+                  <br />
+                  At CERTA, we understand that the best way to avoid a
+                  corporate governance crisis is to plan for it; and
+                  that often the most successfully resolved crises are
+                  the ones that no one hears about. But when an issue
+                  is in the spotlight, we bring to bear an
+                  unparalleled array of resources and expertise,
+                  including regulation, disclosure, corporate law,
+                  communications policy, compliance practices,
+                  privacy, fiduciary duties, investor relations and
+                  experience based business judgment. <br /> <br />
+                  We are experienced in guiding boards of directors,
+                  special committees, and management on the full range
+                  of governance issues that confront them. In fact,
+                  our multidisciplinary, business-focused approach to
+                  addressing these issues has been relied upon by many
+                  local and regional companies.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'ENVIRONMENTAL & ENERGY LAW',
       icon: '/assets/images/icons/Renewable Energy.png',
       background: '/assets/images/environment.jpg',
       path: '/environmental-energy-law',
+      image: '/assets/images/environment.jpg',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                  The industrial demands for energy and environmental
+                  impact cautiousness have grown exponentially to
+                  position those operating in the energy and
+                  environmental sector in need for more than legal
+                  skill; but also, for in-depth industry knowledge and
+                  creative solutions to the problems they face.
+                  <br />
+                  <br />
+                  At CERTA, we deliver to our clients the focused,
+                  innovative sector advice they need in various
+                  environmental and energy specialisations. We are
+                  very cautious about climate change and climate
+                  justice, one of the evolving world trilemmas. <br />
+                  <br />
+                  We therefore provide our clients with a clear
+                  guidance on corporate social responsibility (CSR)
+                  and compliance taking into account their product
+                  substitutability and environmental responsibility.
+                  We deliver the legal service ranging from prior
+                  environmental impact assessment, recovery of damages
+                  and climate justice.
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'DISPUTE RESOLUTION',
       icon: '/assets/images/icons/Dispute resolution.png',
       background: '/assets/images/Dispute.jpg',
       path: '/dispute-resolution',
+      image: '/assets/images/Dispute.jpg',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                The Firm is known for its reputable experience in effectively handling a wide range 
+                of disputes on behalf of its clients, both local and international. These range from 
+                constitutional matters, criminal matters, employment and labor, contracts, intellectual 
+                property, taxation disputes among others. 
+                  <br />
+                  <br />
+                  We have a full-fledged practice in litigation with a high calibre team which is equipped 
+                  with decades of experience. We provide advisory services to our clients to ensure that 
+                  disputes are avoided whenever possible, and resolved efficiently when they arise.
+                  <br/>
+                  <br/>
+                  The Firm is also renowned for its charismatic engagement in strategic litigation and constitutional challenges. 
+                  CERTA Law has both filed a number of constitutional challenges which have resulted in amendments of laws, as well 
+                  as strategic litigation cases which have resulted in key jurisprudence. <br/> <br/>
+                  Our highly experienced team represents both international and international arbitrations and our Partners sit on the 
+                  domestic panel of arbitrators at the Kigali International Arbitration Centre. We also handle cases and advise clients in 
+                  negotiations and mediation proceedings as well adjudication, an emerging area of settlement of construction disputes in Rwanda. <br/> <br/>
+                  All our Partners act as court appointed mediators and Florida Kabasinga, our Managing Partner has been appointed as the 
+                  Chairperson of the East African Law Society’s Alternative Dispute Resolution Committee. <br/>
+
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'CORPORATE GOVERNANCE & COMPLIANCE',
       icon: '/assets/images/icons/Corporate Transactios.png',
       background: '/assets/images/commercial.jpg',
       path: '/corporate-governance-and-compliance',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                Corporate governance and compliance requires balancing complicated competing interests under the 
+                intense spotlight of regulatory, operational, fiduciary, political, communications and market factors. 
+                It requires the application of judgment, legal analysis, and practical decision-making in a real-time 
+                environment where decisions are likely to be second-guessed and sometimes reviewed by the courts. <br/> <br/>
+                At CERTA, we understand that the best way to avoid a corporate governance crisis is to plan for it; 
+                ensuring compliance and that often the most successfully resolved crises are the ones that no one 
+                hears about. But when an issue is in the spotlight, we bring to bear an unparalleled array of resources 
+                and expertise, including regulation, disclosure, corporate law, communications policy, compliance practices, 
+                privacy, fiduciary duties, investor relations and experience based business judgment. <br/><br/>
+                We are experienced in guiding boards of directors, special committees, and management on the full 
+                range of governance issues that confront them. In fact, our multidisciplinary, business-focused 
+                approach to addressing these issues has been relied upon by many local and regional companies. <br/><br/>
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'LEGAL CONSULTANCY AND POLICY ANALYSIS',
       icon: '/assets/images/icons/policies.png',
       background: '/assets/images/Legal.jpg',
       path: '/legal-consultancy',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                At CERTA we offer a diverse legal consultation service to companies and institutions 
+                in Rwanda and abroad. We identify, prevent, and solve legal issues at the earliest stage
+                 of dealings. Our number one priority is to empower our client with knowledge resources 
+                 that are required of them to make financially sensible decisions and comply with the 
+                 laws of Rwanda.
+
+                Our consultancy package includes offering industry-based workshops, seminars and trainings 
+                in matters related to legal business ethics, anti-corruption, labour relations and general 
+                good conduct in various sectors.
+
+                We prepare legal opinions, policy analysis, and white papers to our clients covering 
+                areas of their interest. We go beyond and above to guide our clients in how to utilise 
+                such informational documents. <br/>
+
+                We also offer specialised policy drafting and analysis services. Many companies and 
+                organisations need personnel policies such as code of conduct, disciplinary action 
+                policies, safety policies, privacy and confidentiality related policies. We are down 
+                all your specific needs for your company. We also analyse the already existing policies 
+                to align them to the laws and trends of the time.
+
+
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
     {
       title: 'WILLS, TRUST & PROBATE LAW',
       icon: '/assets/images/icons/WillsTrusts.png',
       background: '/assets/images/Wills.jpg',
       path: '/wills-trust',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                CERTA is part of the leading law firms in Rwanda providing a Full Range of Estate Planning Services. 
+                We advise our clients and help them draft all sorts of trusts and wills including living trusts, a last 
+                will and testament, durable powers of attorney, and a living will. Planning for the future is very critical, 
+                it raises issues of executors, heirs and beneficiaries. We accordingly assist in probate matters such as a 
+                breach of fiduciary duty or a claim against executors. Given the novelty of regulation of wills and trusts 
+                in Rwanda, our attorneys have quickly specialized in Wills and Trusts registration, interpretation, professional 
+                execution and the entire administration of estate planning.
+
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
     },
   ];
 }
