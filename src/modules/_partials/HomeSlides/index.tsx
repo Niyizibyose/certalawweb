@@ -10,8 +10,6 @@ interface IItem {
   about: string;
   secondLine: string;
   btnText: string;
-  moreTxt: string;
-  moreTxt2: string;
   lexLogo: string;
 }
 
@@ -34,14 +32,11 @@ const resources = [
     lexLogo: '/assets/images/lex1.png',
   },
   {
-    imageUrl: '/assets/images/foundation.png',
+    imageUrl: '/assets/images/foundation.jpg',
     link: 'https://certafoundation.rw/',
     about: '',
     secondLine: '',
     btnText:'',
-    lexLogo: '/assets/images/cli.png',
-    moreTxt: 'The CERTA Founadtion is working to make a difference in Rwanda-for both the community at-large and legal profession',
-    moreTxt2: '',
   },
 ];
 
@@ -165,13 +160,6 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
                       </h2>
                       <h2 className="mt-1 landingTexts md:text-5xl">
                         {resource.secondLine}
-                      </h2>
-                      <h2 className="mt-4 text-xs bottom-20 left-5 absolute z-50 landingTexts">
-                        {resource.moreTxt}
-                      </h2>
-
-                      <h2 className="mt-4 text-xs bottom-15 left-5 absolute z-40 landingTexts">
-                        {resource.moreTxt2}
                       </h2>
                       <button
                         type="button"
