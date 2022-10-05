@@ -9,6 +9,9 @@ interface IItem {
   title: string;
   about: string;
   secondLine: string;
+  btnText: string;
+  moreTxt: string;
+  moreTxt2: string;
   lexLogo: string;
 }
 
@@ -19,6 +22,7 @@ const resources = [
     link: '/insights/1',
     about: 'Rwanda Delayed Potential in',
     secondLine: 'Construction Disputes.',
+    btnText:'Read More',
   },
   {
     title: 'About certa',
@@ -26,13 +30,18 @@ const resources = [
     link: '/about-2',
     about: 'We are the fastest growing',
     secondLine: 'Law firm in Rwanda.',
+    btnText:'Learn More',
     lexLogo: '/assets/images/lex1.png',
   },
   {
-    imageUrl: '/assets/images/foundation.jpg',
+    imageUrl: '/assets/images/foundation.png',
     link: 'https://certafoundation.rw/',
-    about: 'The Certa',
-    secondLine: 'Foundation',
+    about: '',
+    secondLine: '',
+    btnText:'',
+    lexLogo: '/assets/images/cli.png',
+    moreTxt: 'The CERTA Founadtion is working to make a difference in Rwanda-for both the community at-large and legal profession',
+    moreTxt2: '',
   },
 ];
 
@@ -97,7 +106,7 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
           <img
             src="/assets/images/lex.png"
             alt=""
-            className="h-20 w-24 right-6 bottom-10 absolute z-50"
+            className="h-20 w-40 right-6 bottom-10 absolute z-50"
           />
         )}
 
@@ -144,25 +153,34 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
                     objectPosition="center"
                   />
 
+                  
                   <div className="z-10 flex flex-col items-start my-auto">
                     <h5 className="uppercase text-xl md:text-2xl landingTexts text-brand-yellow">
                       {resource.title}
                     </h5>
                     <div className="mt-3 flex flex-col items-start text-2xl md:text-6xl text-white landingTexts">
+                      
                       <h2 className="mt-1 landingTexts md:text-5xl">
                         {resource.about}
                       </h2>
                       <h2 className="mt-1 landingTexts md:text-5xl">
                         {resource.secondLine}
                       </h2>
+                      <h2 className="mt-4 text-xs bottom-20 left-5 absolute z-50 landingTexts">
+                        {resource.moreTxt}
+                      </h2>
+
+                      <h2 className="mt-4 text-xs bottom-15 left-5 absolute z-40 landingTexts">
+                        {resource.moreTxt2}
+                      </h2>
                       <button
                         type="button"
                         onClick={() => {
                           push(resource.link);
                         }}
-                        className="mt-4 text-xs font-medium group-hover:font-bold group-hover:text-sm text-brand-gray"
+                        className="mt-2 md:text-xl font-medium group-hover:font-bold group-hover:text-sm text-brand-gray"
                       >
-                        Read more
+                        {resource.btnText}
                       </button>
                     </div>
                   </div>

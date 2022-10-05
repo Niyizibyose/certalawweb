@@ -335,7 +335,7 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       `,
     },
     {
-      title: 'CORPORATE LAW',
+      title: 'Commercial Transactions',
       icon: '/assets/images/icons/Corporate Gov.png',
       background: '/assets/images/corporatelaw.jpg',
       path: '/corporate-law',
@@ -343,32 +343,13 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       html: `
       <div class="flex flex-col md:col-span-2">
                 <section>
-                  Corporate governance requires balancing complicated
-                  competing interests under the intense spotlight of
-                  regulatory, operational, fiduciary, political,
-                  communications and market factors. It requires the
-                  application of judgment, legal analysis, and
-                  practical decision-making in a real-time environment
-                  where decisions are likely to be second-guessed and
-                  sometimes reviewed by the courts.
+                At CERTA, we strive to meet the legal needs of businesses both big and small. We provide
+                transactional representation to corporations and small businesses, including: - purchase/lease
+                agreements and real estate closings, export and import transactions, business formation
+                restructuring and dissolution, contract negotiation as well as sale of assets. Let us help you with all
+                your business and corporate law needs.
                   <br />
                   <br />
-                  At CERTA, we understand that the best way to avoid a
-                  corporate governance crisis is to plan for it; and
-                  that often the most successfully resolved crises are
-                  the ones that no one hears about. But when an issue
-                  is in the spotlight, we bring to bear an
-                  unparalleled array of resources and expertise,
-                  including regulation, disclosure, corporate law,
-                  communications policy, compliance practices,
-                  privacy, fiduciary duties, investor relations and
-                  experience based business judgment. <br /> <br />
-                  We are experienced in guiding boards of directors,
-                  special committees, and management on the full range
-                  of governance issues that confront them. In fact,
-                  our multidisciplinary, business-focused approach to
-                  addressing these issues has been relied upon by many
-                  local and regional companies.
                 </section>
 
                 <p class="mt-4 text-primary">
