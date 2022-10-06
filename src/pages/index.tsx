@@ -9,6 +9,7 @@ import ConsultPopup from 'modules/_partials/ConsultPopup';
 
 const Home: NextPage = () => {
   const [progress, setProgress] = React.useState(0);
+  const [index, setIndex] = React.useState(0);
 
   React.useEffect(() => {
     const timer = setInterval(() => {
@@ -45,9 +46,9 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        <HomeSlides />
+        <HomeSlides setIndex={setIndex} />
 
-        <ConsultPopup />
+        {index === 0 ? <ConsultPopup /> : null}
       </div>
       <LandingFooter />
     </>

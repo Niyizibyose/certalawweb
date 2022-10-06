@@ -40,7 +40,13 @@ const resources = [
   },
 ];
 
-const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
+const HomeSlides = ({
+  data = resources,
+  setIndex,
+}: {
+  data?: IItem[];
+  setIndex: (n: number) => void;
+}) => {
   const { push } = useRouter();
   const lastIndex = data.length - 1;
   const [hovered, setHovered] = useState(false);
@@ -89,6 +95,10 @@ const HomeSlides = ({ data = resources }: { data?: IItem[] }) => {
       clearTimeout(timer);
     };
   }, [moveNext, data]);
+
+  useEffect(() => {
+    setIndex(currentIndex);
+  }, [currentIndex]);
 
   return (
     <div
