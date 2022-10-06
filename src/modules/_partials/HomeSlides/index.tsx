@@ -13,14 +13,14 @@ interface IItem {
   lexLogo: string;
 }
 
-const resources = [
+const data = [
   {
     title: 'INSIGHTS',
     imageUrl: '/assets/images/Volcanos.jpg',
     link: '/insights/1',
     about: 'Rwanda Delayed Potential in',
     secondLine: 'Construction Disputes.',
-    btnText:'Read More',
+    btnText: 'Read More',
   },
   {
     title: 'About certa',
@@ -28,7 +28,7 @@ const resources = [
     link: '/about-2',
     about: 'We are the fastest growing',
     secondLine: 'Law firm in Rwanda.',
-    btnText:'Learn More',
+    btnText: 'Learn More',
     lexLogo: '/assets/images/lex1.png',
   },
   {
@@ -36,15 +36,13 @@ const resources = [
     link: 'https://certafoundation.rw/',
     about: '',
     secondLine: '',
-    btnText:'',
+    btnText: '',
   },
 ];
 
 const HomeSlides = ({
-  data = resources,
   setIndex,
 }: {
-  data?: IItem[];
   setIndex: (n: number) => void;
 }) => {
   const { push } = useRouter();
@@ -115,6 +113,45 @@ const HomeSlides = ({
           />
         )}
 
+        {currentIndex >= 2 ? (
+          <div className="pointer-events-none p-4 md:p-8 flex flex-col md:flex-row md:space-x-3 space-y-3 md:space-y-0 justify-between bottom-0 w-full z-50 absolute">
+            <div className="flex items-start flex-col md:max-w-[40%]">
+              <img
+                src="/assets/images/whiteflogo.png"
+                alt="Certa"
+                height={12}
+                className="h-20"
+              />
+              <p className="mt-2 text-white px-2">
+                The Certa Foundation is working to make a difference
+                in Rwanda - for both the community at-large and legal
+                profession.
+              </p>
+            </div>
+
+            <div className="flex flex-col md:max-w-[40%]">
+              <div className="flex items-center space-x-1">
+                <div className="w-48 h-0.5 bg-white" />
+                <p className="text-white/70 text-xs">Learn more</p>
+              </div>
+              <div className="flex items-end space-x-3 mt-6">
+                <img
+                  src="/assets/images/CJAlogos-WHT.png"
+                  alt="Certa"
+                  height={12}
+                  className="h-12"
+                />
+                <img
+                  src="/assets/images/CLI-Wht.png"
+                  alt="Certa"
+                  height={12}
+                  className="h-12"
+                />
+              </div>
+            </div>
+          </div>
+        ) : null}
+
         <div className="right-2 z-10 justify-center absolute flex flex-col items-center space-y-2 h-full">
           {data.map((resource, index) => (
             <div
@@ -158,13 +195,11 @@ const HomeSlides = ({
                     objectPosition="center"
                   />
 
-                  
                   <div className="z-10 flex flex-col items-start my-auto">
                     <h5 className="uppercase text-xl md:text-2xl landingTexts text-brand-yellow">
                       {resource.title}
                     </h5>
                     <div className="mt-3 flex flex-col items-start text-2xl md:text-6xl text-white landingTexts">
-                      
                       <h2 className="mt-1 landingTexts md:text-5xl">
                         {resource.about}
                       </h2>
