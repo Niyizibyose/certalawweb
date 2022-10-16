@@ -156,23 +156,22 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       html: `
       <div class="flex flex-col md:col-span-2">
                 <section>
-                Our employment and labour lawyers are known for their creative, business-oriented skills and, 
-                when necessary, they are results-driven and highly successful litigators. CERTA represents local 
-                and multinational businesses with respect to the full range of workforce-related issues, including 
-                employment contracts, handbooks, and policies. The employment lawyers at CERTA will work closely 
-                with your management and human resources professionals to develop and maintain clear, suitable 
-                employee handbooks and policies carefully tailored to meet your business objectives. When it comes 
-                to employment contracts, we can help you draft strong, enforceable restrictive covenants and other 
-                provisions that clearly inform employees of their duties to their employer and protect you against 
-                the loss of confidential information, customers, and other employees.
+                Government contracting offers lucrative opportunities for businesses that know how to
+leverage them. To win in this intricate but rewarding field, you need good legal counsel
+who understand what awarding contracts by government means. Operating at the
+intersection of law, business, and government, CERTA’s Government Contracts
+practice delivers innovative, flexible, and effective business and litigation solutions and
+strategies, relying not only on our breadth and depth of experience, but also on our
+proven history of succeeding in the most complex and difficult circumstances.
                 </section>
 
                 <section>
                   <br />
                   <br />
-                  One of the solutions CERTA offers is employment law-related training. Clients repeatedly ask us 
-                  to provide this service. Since requests for employment law training can vary dramatically from client 
-                  to client, we have extensive experience in tailoring employment law training programs to meet your specific objectives.
+                  From the country's largest contractors to small businesses signing their first government
+contracts, our team represents clients of every size and scope with equal stamina. Our
+experience covers every aspect of contracting and all major government agencies,
+encompassing key industry sectors.
                 </section>
 
                 <p class="mt-4 text-primary">
@@ -335,7 +334,7 @@ Prior to joining CERTA Law, Celine worked with numerous entities including servi
       `,
     },
     {
-      title: 'Commercial Transactions',
+      title: 'COMMERCIAL TRANSACTIONS',
       icon: '/assets/images/icons/Corporate Gov.png',
       background: '/assets/images/corporatelaw.jpg',
       path: '/corporate-law',
