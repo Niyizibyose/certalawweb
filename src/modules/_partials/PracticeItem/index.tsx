@@ -11,11 +11,11 @@ const PracticeItem = ({
       <Image
         src={background}
         alt=""
-        height={200}
-        width={200}
+        height={250}
+        width={250}
         className="flex-grow"
       />
-      <div className="top-0 left-0 absolute bg-primary w-full h-full gap-y-2 justify-center min-h-[170px] bg-opacity-80 flex flex-col items-center">
+      <div className="top-0 left-0 absolute bg-primary w-full h-full justify-center min-h-[250px] bg-opacity-80 flex flex-col items-center">
         <div className="hidden text-white group-hover:block">
           <Image src={icon} alt="" width={100} height={100} />
         </div>

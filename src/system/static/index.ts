@@ -502,6 +502,34 @@ encompassing key industry sectors.
               </div>
       `,
     },
+
+    {
+      title: 'MEDICAL LAW',
+      icon: '/assets/images/icons/HumanRights.png',
+      background: '/assets/images/HumanRights.jpg',
+      path: '/wills-trust',
+      html: `
+      <div class="flex flex-col md:col-span-2">
+                <section>
+                In Rwanda, Medical law is a nascent area of practice. However, at CERTA our lawyers have the in-
+                depth knowledge in medical malpractice, negligence and confidentiality of patient data. When
+                handling this kind of sensitive cases, we are obliged by law and legal ethics to observe the rights
+                and responsibilities of medical professionals and their patients. We have successfully
+                represented hospitals, patients, and individual medical professionals in surgical claims, medical
+                liability, and failure to observe medical procedures. Our lawyers are as well very conversant and
+                highly experienced in advising the medical statutory bodies and doctors in matters related to
+                professional misconduct, and breaches of ethical code.
+
+                </section>
+
+                <p class="mt-4 text-primary">
+                  Get more information by reaching out to us via email
+                  info@certalaw.rw
+                </p>
+              </div>
+      `,
+    },
+
     {
       title: 'WILLS, TRUST & PROBATE LAW',
       icon: '/assets/images/icons/WillsTrusts.png',

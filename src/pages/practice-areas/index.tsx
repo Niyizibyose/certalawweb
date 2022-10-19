@@ -53,7 +53,7 @@ const PracticeAreas: NextPage = () => {
                 whose knowledge and experience span industries and
                 worldwide.
               </p>
-              <div className="mt-4 h-[2px] w-full opacity-25 bg-primary rounded" />
+              <div className="mt-4 h-[4] w-full opacity-25 bg-primary rounded" />
               <div className="my-4 gap-3 grid sm:grid-cols-2 md:grid-cols-4">
                 {Static.practiceItems.map(element => (
                   <PopupDrawer
